@@ -88,5 +88,8 @@
     "bootstrap": {
       "depends": "jquery:$"
     }
+  },
+  "dependencies": {
+    "three-fly-controls": "^1.1.0"
   }
 }

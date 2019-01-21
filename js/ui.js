@@ -1167,6 +1167,12 @@ var Promise = require("bluebird"),
             });
         }));
 
+        $("#geo").on("click", withRefresh(function() {
+            $.event.trigger({
+                type: 'plasio.camera.perspective-geo'
+            });
+        }));
+
         $("#camera-reset").on("click", withRefresh(function() {
             $.event.trigger({
                 type: 'plasio.camera.reset'
