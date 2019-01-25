@@ -1,6 +1,8 @@
 
-# Slight modification of the Plas.io project so it includes a new camera control option called "Geo". 
-# This new controls project the point cloud in perspective view but, unlike the old "Perspective" camera, it fixes the camera's vertical vector aligned to the Z axis of the model. This feature is particularly useful when the LAS files represent large terrain scans. 
+Slight modification of the Plas.io project so it includes a new camera control option called "Geo". 
+
+This new controls project the point cloud in perspective view but, unlike the old "Perspective" camera, it fixes the camera's vertical vector aligned to the Z axis of the model. This feature is particularly useful when the LAS files represent large terrain scans. 
+============================================
 
 
 plasio
