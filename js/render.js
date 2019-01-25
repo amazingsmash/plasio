@@ -833,7 +833,7 @@ THREE.TrackballGeoControls.prototype = Object.create( THREE.EventDispatcher.prot
 
 	};
 
-		CameraControl.prototype.addCameraGeo = function(name, camera, noRotate, noPan, noZoom) {
+	CameraControl.prototype.addCameraGeo = function(name, camera, noRotate, noPan, noZoom) {
 		var controls = new THREE.TrackballGeoControls(camera, this.container);
 
 		controls.noRotate = (noRotate === undefined ? false : noRotate);
@@ -2062,6 +2062,10 @@ THREE.TrackballGeoControls.prototype = Object.create( THREE.EventDispatcher.prot
 
 	function render() {
 		renderer.clear();
+
+		// var messagesLabel = $("messages");
+		// messagesLabel.innerHTML = "Test"
+
 		var camera = getCameraControl().activeCamera;
 
 		// regions we have right now
